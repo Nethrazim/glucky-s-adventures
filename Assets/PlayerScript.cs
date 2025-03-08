@@ -1,11 +1,12 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerScript : MonoBehaviour
 {
     private KeyCode lastHitKey;
-
+    private List<GameObject> colliders = new List<GameObject>();
     public float jumpHeight = 1;
     public float moveSpeed = 1;
     //public float speedMult = 1;
@@ -33,16 +34,17 @@ public class PlayerScript : MonoBehaviour
                 _rigidBody.linearVelocity = new Vector2(_rigidBody.linearVelocityX, jumpHeight);
                 numberOfJumps++;
             }
-            else
-            {
-                
-            }
+        }
+
+        if (Mathf.Approximately(_rigidBody.linearVelocityY, 0))
+        {
+            numberOfJumps = 0;
         }
 
             
         if (Input.GetKey(KeyCode.D))
         {
-            Debug.Log("D");
+            // Debug.Log("D");
             //_animator.StopPlayback();
             _animator.ResetTrigger("Stop Playing");
             _animator.ResetTrigger("isMovingLeft");
@@ -62,7 +64,7 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("A");
+            //Debug.Log("A");
             //_animator.StopPlayback();
             _animator.ResetTrigger("Stop Playing");
             _animator.ResetTrigger("isMovingRight");
@@ -88,7 +90,7 @@ public class PlayerScript : MonoBehaviour
         {
             //If the GameObject's name matches the one you suggest, output this message in the console
             Debug.Log("Do something here");
-            numberOfJumps = 0;
+            //numberOfJumps = 0;
         }
     }
 }

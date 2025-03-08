@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 463e1fcbc1d670a4fb3370da13c02990
+guid: 8e0bc8fcb1e790541b59a648948de93f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -832919936661052217
-    second: idle right_0
-  - first:
-      213: 5026059756683766502
-    second: idle right_1
-  - first:
-      213: -1426640940143373334
-    second: idle right_2
-  - first:
-      213: 2506121190711480756
-    second: idle right_3
+      213: 7462279623679303820
+    second: flowers-long-v1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -119,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -135,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle right_0
+      name: flowers-long-v1_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 155
-        width: 252
-        height: 322
+        x: 47
+        y: 0
+        width: 930
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,74 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c42af80bbfd074f0800000000000000
-      internalID: -832919936661052217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle right_1
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 302
-        width: 29
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6eaa50138b620c540800000000000000
-      internalID: 5026059756683766502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle right_2
-      rect:
-        serializedVersion: 2
-        x: 328
-        y: 153
-        width: 243
-        height: 322
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae399b4af9d833ce0800000000000000
-      internalID: -1426640940143373334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle right_3
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 300
-        width: 29
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b1df68e1f787c220800000000000000
-      internalID: 2506121190711480756
+      spriteID: c806a08e7c75f8760800000000000000
+      internalID: 7462279623679303820
       vertices: []
       indices: 
       edges: []
@@ -235,11 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      idle right_0: -832919936661052217
-      idle right_1: 5026059756683766502
-      idle right_2: -1426640940143373334
-      idle right_3: 2506121190711480756
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

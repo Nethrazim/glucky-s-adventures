@@ -136,6 +136,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      leprechaun moving right-v2_0: 6867511462192276023
+      leprechaun moving right-v2_1: -3391606691678532649
+      leprechaun moving right-v2_2: -8025363092346415958
+      leprechaun moving right-v2_3: -1633132304001265886
+      leprechaun moving right-v2_4: 2661987384939996818
+      leprechaun moving right-v2_5: 7543556234780518021
+      leprechaun moving right-v2_6: -2308533274731259965
+      leprechaun moving right-v2_7: 3594099424835420552
+      leprechaun moving right-v2_8: 87683057710410927
+      leprechaun moving right-v2_9: -1289567810798823098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
