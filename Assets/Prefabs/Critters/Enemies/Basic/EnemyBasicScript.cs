@@ -8,6 +8,9 @@ public class EnemyBasicScript : MonoBehaviour
     private float speed = 2.0f;
     private float distanceMoved = 0f;
     public float targetDistance = 5f;
+    public Sprite crushedSprite;
+    private bool isCrushed = false;
+    public GameObject deathParticle;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,7 +24,7 @@ public class EnemyBasicScript : MonoBehaviour
     {
         float move = speed * Time.deltaTime;
 
-        if (movingLeft)
+        if (movingLeft && !isCrushed)
         {
             _animator.SetTrigger("isMovingLeft");
             transform.Translate(Vector3.left * move);
@@ -33,7 +36,7 @@ public class EnemyBasicScript : MonoBehaviour
                 distanceMoved = 0f;
             }
         }
-        else
+        else if(!movingLeft && !isCrushed)
         {
             _animator.SetTrigger("isMovingRight");
             transform.Translate(Vector3.right * move);
@@ -44,6 +47,24 @@ public class EnemyBasicScript : MonoBehaviour
                 movingLeft = true;
                 distanceMoved = 0f;
             }
+        }
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!isCrushed && collision.gameObject.tag == "Player")
+        {
+            Debug.Log("crushed");
+            //_animator.SetTrigger("isCrushed");
+            //var spriteRenderer = GetComponent<SpriteRenderer>();
+            //spriteRenderer.sprite = crushedSprite;
+            //spriteRenderer.enabled = false;
+            //spriteRenderer.enabled = true;
+            //_animator.enabled = false;
+            isCrushed = true;
+
+            Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
+            Destroy(gameObject, 0.03125f);
         }
     }
 }

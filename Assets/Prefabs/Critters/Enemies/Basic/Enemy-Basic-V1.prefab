@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7062719986736469953}
   - component: {fileID: 8943053814341835733}
   - component: {fileID: 6401689979728333384}
-  - component: {fileID: 8909005750154633839}
+  - component: {fileID: 8758128837543230185}
   m_Layer: 0
   m_Name: Enemy-Basic-V1
   m_TagString: Untagged
@@ -186,7 +186,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.95, y: 1.63}
   m_EdgeRadius: 0
---- !u!114 &8909005750154633839
+--- !u!114 &8758128837543230185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,3 +199,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetDistance: 5
+  crushedSprite: {fileID: -6649859334118599655, guid: 4d27d0a3a7bab9142b7ffc87b0d9d48a, type: 3}
+  deathParticle: {fileID: 3287235870268212679, guid: 7ef9ed6fc2c3995419e9efd91b0916aa, type: 3}
