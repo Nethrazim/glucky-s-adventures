@@ -52,7 +52,7 @@ public class EnemyBasicScript : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!isCrushed && collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             Debug.Log("crushed");
             //_animator.SetTrigger("isCrushed");
@@ -63,8 +63,19 @@ public class EnemyBasicScript : MonoBehaviour
             //_animator.enabled = false;
             isCrushed = true;
 
-            Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
-            Destroy(gameObject, 0.03125f);
+            Death();
         }
+
+        if (collision.gameObject.tag == "bullets")
+        {
+            Debug.Log("A FOST LOVIT");
+            Death();
+        }
+    }
+
+    private void Death()
+    {
+        Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
+        Destroy(gameObject, 0.03125f);
     }
 }

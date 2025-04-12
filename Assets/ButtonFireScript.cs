@@ -1,12 +1,9 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class ButtonJumpScript : MonoBehaviour
+public class ButtonFireScript : MonoBehaviour
 {
     public GameObject player;
     private PlayerScript playerScript;
-
-    private bool isPressed = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,16 +13,11 @@ public class ButtonJumpScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
     }
 
-    public void jump()
+    public void Fire()
     {
-        Debug.Log("Jump");
-        playerScript.jump();
-    }
-
-    public void Exit()
-    {
-        Application.Quit();
+        playerScript.Fire();
     }
 }

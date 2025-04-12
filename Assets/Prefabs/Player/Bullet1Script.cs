@@ -1,17 +1,48 @@
+using Unity.Mathematics.Geometry;
 using UnityEngine;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class Bullet1Script : MonoBehaviour
 {
-    public Rigidbody2D _rb;
+    private Rigidbody2D _rb;
+    private Vector3 initialPosition;
+    public float flyDistance = 20;
+    public float speed;
+    public Vector3 rotationSpeed = new Vector3(0, 0, 720);
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        initialPosition = transform.position;
         _rb = gameObject.GetComponent<Rigidbody2D>();
-        _rb.linearVelocityX = 1f;
+        _rb.linearVelocityX = speed;
+        _rb.rotation = 2f;
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform.Rotate(rotationSpeed * Time.deltaTime);
+        if (transform.position.x > initialPosition.x + flyDistance)
+        {
+            DestroyBullet();
+        }
+    }
+
+    private void DestroyBullet()
+    {
+
+        Debug.Log("DESTROYED BULLET");
+        Destroy(gameObject);
+    }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "enemies")
+        {
+            DestroyBullet();
+        }
+        else if (collision.gameObject.tag == "platform")
+        {
+            DestroyBullet();
+        }
     }
 }
