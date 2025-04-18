@@ -22,17 +22,10 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D _rigidBody;
     private Animator _animator;
     private float playerCameraDistance;
-    private bool keyboardInput = false;
+    public bool keyboardInput = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone).Contains("ENABLE_INPUT_SYSTEM") &&
-           PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone).Contains("ENABLE_LEGACY_INPUT_MANAGER"))
-        {
-            keyboardInput = true;
-        }
-
-
         _rigidBody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         mainCameraRb = mainCamera.GetComponent<Rigidbody2D>();
