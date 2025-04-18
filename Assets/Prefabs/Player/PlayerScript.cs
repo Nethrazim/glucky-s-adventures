@@ -12,6 +12,7 @@ public class PlayerScript : MonoBehaviour
     public GameObject mainCamera;
     public Rigidbody2D mainCameraRb;
     public GameObject bulletSpawnPoint;
+    public GameObject bulletSpawnPointLeft;
     private KeyCode lastHitKey;
     private List<GameObject> colliders = new List<GameObject>();
     public float jumpHeight = 1;
@@ -23,6 +24,7 @@ public class PlayerScript : MonoBehaviour
     private Animator _animator;
     private float playerCameraDistance;
     public bool keyboardInput = false;
+    private bool isFacingRight = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -96,6 +98,7 @@ public class PlayerScript : MonoBehaviour
     }
     public void moveRight()
     {
+        isFacingRight = true;
         moveCamera(true);
         // Debug.Log("D");
         //_animator.StopPlayback();
@@ -116,6 +119,7 @@ public class PlayerScript : MonoBehaviour
     }
     public void moveLeft()
     {
+        isFacingRight = false;
         moveCamera(false);
         //Debug.Log("A");
         //_animator.StopPlayback();
@@ -151,7 +155,17 @@ public class PlayerScript : MonoBehaviour
     public void Fire()
     {
         Debug.Log("FIRE");
-        Instantiate(bullet, bulletSpawnPoint.transform.position, Quaternion.identity);
+        GameObject iBullet = null;
+
+        if (isFacingRight) {
+            iBullet = Instantiate(bullet, bulletSpawnPoint.transform.position, Quaternion.identity);
+            iBullet.GetComponent<Bullet1Script>().isFlyingRight = true;
+        }
+        else {
+            iBullet = Instantiate(bullet, bulletSpawnPointLeft.transform.position, Quaternion.identity);
+            iBullet.GetComponent<Bullet1Script>().isFlyingRight = false;
+        }
+        
     }
 
     public void stopMovingLeft()

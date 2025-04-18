@@ -8,13 +8,23 @@ public class Bullet1Script : MonoBehaviour
     private Vector3 initialPosition;
     public float flyDistance = 20;
     public float speed;
+    public bool isFlyingRight = true;
+
     public Vector3 rotationSpeed = new Vector3(0, 0, 720);
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         initialPosition = transform.position;
         _rb = gameObject.GetComponent<Rigidbody2D>();
-        _rb.linearVelocityX = speed;
+        if (isFlyingRight)
+        {
+            _rb.linearVelocityX = speed;
+        }
+        else 
+        {
+            _rb.linearVelocityX = -speed;
+        }
+
         _rb.rotation = 2f;
     }
 
@@ -36,6 +46,8 @@ public class Bullet1Script : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        DestroyBullet();
+        return;
         if (collision.gameObject.tag == "enemies")
         {
             DestroyBullet();

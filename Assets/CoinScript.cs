@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
+    public GameObject collisionParticleSystem;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,6 +20,15 @@ public class CoinScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Destroy(gameObject);
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Instantiate(collisionParticleSystem, gameObject.transform.position, Quaternion.Euler(0,0,180f));
             Destroy(gameObject);
         }
     }

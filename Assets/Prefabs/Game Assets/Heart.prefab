@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2021340163883919723}
   - component: {fileID: 6456559723050635744}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8816734113387181457, guid: 5c2da106fdff1af45b4402a43a1f426b, type: 3}
+  m_Sprite: {fileID: 3781217729317861038, guid: 0b045ad93e54d2a4bba4a87664c73258, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -105,7 +105,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -119,7 +119,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.33}
+    oldSize: {x: 2.39, y: 2.63}
     newSize: {x: 1.28, y: 1.33}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -147,3 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3e6d986a9967d54a88d3ee3535d0e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisionParticleSystem: {fileID: 6528138167851461910, guid: 04ccd530af7d12446b23bcd90c58bb58, type: 3}
