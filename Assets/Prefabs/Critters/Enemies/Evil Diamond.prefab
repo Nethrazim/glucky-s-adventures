@@ -107,3 +107,5 @@ MonoBehaviour:
   trembleSpeed: 50
   destroyedParticleSystem: {fileID: 7327921952449204583, guid: c79efc42b3ffbcf41b3c6b137bea4d31, type: 3}
   isDying: 0
+  hitParticleSystem: {fileID: 4665753839702194698, guid: 7769d15fb77ca4641bc38e041f73b618, type: 3}
+  iHitParticleSystem: {fileID: 0}

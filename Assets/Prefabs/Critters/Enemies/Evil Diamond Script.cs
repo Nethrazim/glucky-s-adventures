@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EvilDiamondScript : MonoBehaviour
 {
@@ -17,11 +18,18 @@ public class EvilDiamondScript : MonoBehaviour
     public GameObject destroyedParticleSystem;
     public bool isDying = false;
 
+    public ParticleSystem hitParticleSystem;
+    public ParticleSystem iHitParticleSystem;
+
+
     void Start()
     {
         // Store the object's original scale
         originalScale = transform.localScale;
         originalPosition = transform.position;
+        Vector3 position = gameObject.transform.position;
+        iHitParticleSystem = Instantiate(hitParticleSystem, position, Quaternion.Euler(180.0f, 0.0f, 0f));
+        iHitParticleSystem.Stop();
     }
 
     void Update()
@@ -55,6 +63,7 @@ public class EvilDiamondScript : MonoBehaviour
         Vector3 position = gameObject.transform.position;
 
         Instantiate(destroyedParticleSystem, position, Quaternion.identity);
+        iHitParticleSystem.Stop();
         Destroy(gameObject);
 
     }
@@ -63,6 +72,8 @@ public class EvilDiamondScript : MonoBehaviour
         if (collision.gameObject.tag == "bullets")
         {
             hits--;
+            iHitParticleSystem.Play();
+            Destroy(collision.gameObject);
         }
     }
 
