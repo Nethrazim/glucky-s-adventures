@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -21,9 +22,12 @@ public class EvilDiamondScript : MonoBehaviour
     public ParticleSystem hitParticleSystem;
     public ParticleSystem iHitParticleSystem;
 
-
+    public GameObject innerCircle;
+    private Material innerCircleMaterial;
+    private float glowStep = -1.0f;
     void Start()
     {
+        innerCircleMaterial = innerCircle.GetComponent<Renderer>().material;
         // Store the object's original scale
         originalScale = transform.localScale;
         originalPosition = transform.position;
@@ -34,6 +38,19 @@ public class EvilDiamondScript : MonoBehaviour
 
     void Update()
     {
+        float glowAmount = innerCircleMaterial.GetFloat("_GlowAmount");
+        if (glowAmount < -15)
+        {
+            glowStep = 0.025f;
+        } else if (glowAmount >= -6.5f)
+        {
+            glowStep = -0.025f;
+        }
+
+        float newGlowAmountValue = glowAmount + glowStep;
+
+        innerCircleMaterial.SetFloat("_GlowAmount", newGlowAmountValue);
+
         if (hits > 0)
         {
             // Calculate the scaling factor using a sine wave
