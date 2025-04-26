@@ -68,7 +68,7 @@ public class EvilDiamondScript : MonoBehaviour
 
             if (!isDying)
             {
-                StartCoroutine(IsDying(2.0f));
+                StartCoroutine(IsDying(0.25f));
             }
         }
     }

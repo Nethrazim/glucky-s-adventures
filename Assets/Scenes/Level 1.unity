@@ -874,10 +874,6 @@ PrefabInstance:
       propertyPath: keyboardInput
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -668728234201634590, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
-      propertyPath: bulletSpawnPointLeft
-      value: 
-      objectReference: {fileID: 691681559}
     - target: {fileID: 5058765300776387082, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -921,10 +917,6 @@ PrefabInstance:
     - target: {fileID: 6245535252394364090, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8518983341824809116, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3261,11 +3253,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &691681559 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6361965903223313760, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
-  m_PrefabInstance: {fileID: 187120023}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &694341588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4383,7 +4370,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7525755531780227097, guid: 2fc0f4c97ba4719449b8b105b0ae0ffe, type: 3}
+  m_Sprite: {fileID: 810552869590041260, guid: 69073d5f72ab7e64d8ede42446c0f724, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
