@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      piece of evil diamond_0: 7921030918098167927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

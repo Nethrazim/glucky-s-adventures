@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diamon_0: -4086557526694802961
+      diamon_1: 3781217729317861038
+      diamon_2: 924032624230351386
+      diamon_3: -1755192308183662196
+      diamon_4: -7249258735607658463
+      diamon_5: -7477805527400940376
+      diamon_6: -3145077730372462124
+      diamon_7: -2294240403233243049
+      diamon_8: -9132758468633917515
+      diamon_9: -2417140523423635163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stone-giant-v1_0: 3823334373490533495
+      stone-giant-v1_1: -3840892153657775947
+      stone-giant-v1_2: 5513949667864350269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

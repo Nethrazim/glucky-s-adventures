@@ -195,20 +195,6 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "599dbce33218459bb9e395ccf7a1d991"
-                },
-                "m_SlotId": 3
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "5b62f08d2fde44cda13c0592234de61e"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
                     "m_Id": "9ceed9c8830e44eb9d7325f2f47ca0e4"
                 },
                 "m_SlotId": 0
@@ -259,20 +245,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "8072ffed11124a518a1c2cb5f1c137fa"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "599dbce33218459bb9e395ccf7a1d991"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "986e7c2d3ebc48a88d88829e1a40a021"
                 },
                 "m_SlotId": 1
@@ -310,20 +282,6 @@
                     "m_Id": "d86accf693144df3bc91d2aa39fd8b9f"
                 },
                 "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "aeecc67b642f41fba069884d7e7328e4"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "599dbce33218459bb9e395ccf7a1d991"
-                },
-                "m_SlotId": 2
             }
         },
         {
@@ -665,9 +623,9 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 0.5,
-        "e01": 0.5,
-        "e02": 0.0,
+        "e00": 1.0,
+        "e01": 1.0,
+        "e02": 1.0,
         "e03": 2.0,
         "e10": 2.0,
         "e11": 2.0,
@@ -796,7 +754,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Y",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 20.0,
     "m_DefaultValue": 0.0,
     "m_Labels": [
         "Y"
@@ -1292,7 +1250,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Z",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 20.0,
     "m_DefaultValue": 0.0,
     "m_Labels": [
         "Z"
@@ -1309,7 +1267,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 20.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -1940,7 +1898,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Power",
     "m_StageCapability": 3,
-    "m_Value": 2.259999990463257,
+    "m_Value": 3.3499999046325685,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
@@ -2363,9 +2321,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.9529411792755127,
-        "g": 0.2674776017665863,
-        "b": 0.21960783004760743,
+        "r": 0.21960783004760743,
+        "g": 0.9529411792755127,
+        "b": 0.34023573994636538,
         "a": 0.0
     },
     "isMainColor": false,
