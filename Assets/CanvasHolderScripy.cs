@@ -19,6 +19,6 @@ public class CanvasHolderScripy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position = new Vector2(Mathf.Round(player.transform.position.x * 100f) / 100f - Mathf.Round(playerCanvasDistance * 100f) / 100f, transform.position.y);
+        //transform.position = new Vector2(Mathf.Round(player.transform.position.x * 100f) / 100f - Mathf.Round(playerCanvasDistance * 100f) / 100f, transform.position.y);
     }
 }

@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 6006983489379209682}
   - component: {fileID: 4432091201335124545}
   - component: {fileID: 1796181747782309894}
+  - component: {fileID: 5162415169849717722}
   m_Layer: 0
   m_Name: Evil Diamond
   m_TagString: Untagged
@@ -115,7 +116,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.19197063, y: 0.19197063, z: 0.19197063}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8162047890476452355}
@@ -189,8 +190,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hits: 3
-  pulseSpeed: 2
-  pulseIntensity: 0.1
+  pulseSpeed: 5
+  pulseIntensity: -0.01
   trembleIntensity: 0.1
   trembleSpeed: 50
   destroyedParticleSystem: {fileID: 7327921952449204583, guid: c79efc42b3ffbcf41b3c6b137bea4d31, type: 3}
@@ -198,3 +199,49 @@ MonoBehaviour:
   hitParticleSystem: {fileID: 4665753839702194698, guid: 7769d15fb77ca4641bc38e041f73b618, type: 3}
   iHitParticleSystem: {fileID: 0}
   innerCircle: {fileID: 6667459973623837805}
+--- !u!61 &5162415169849717722
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8714644657089607609}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.24893653, y: -0.36382914}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.36, y: 8.67}
+    newSize: {x: 7.36, y: 8.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.177021, y: 4.955106}
+  m_EdgeRadius: 0

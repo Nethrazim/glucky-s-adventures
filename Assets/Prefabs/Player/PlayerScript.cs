@@ -177,6 +177,6 @@ public class PlayerScript : MonoBehaviour
     }
     void IsGrounded()
     {
-        isGrounded = Physics2D.OverlapCircle(rayCastSource.transform.position, 0.001f, groundLayer);
+        isGrounded = Physics2D.OverlapCircle(rayCastSource.transform.position, 1.5f, groundLayer);
     }
 }
