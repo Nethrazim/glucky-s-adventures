@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8598899487137731139}
   - component: {fileID: 5284672776751327744}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platform-v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 7123768712999249395}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.74, y: -1.06, z: 0}
-  m_LocalScale: {x: 1.6322738, y: 1.3038689, z: 1.160852}
+  m_LocalPosition: {x: -4.21, y: -3.61, z: 0}
+  m_LocalScale: {x: 1.5349363, y: 1.3164061, z: 1.160852}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6601672773945673645, guid: af2af77a27229fb4285ff76f520527d4, type: 3}
+  m_Sprite: {fileID: -6473172039604891347, guid: 69e3d159e59182948b312b6f66573bd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

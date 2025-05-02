@@ -30,7 +30,7 @@ public class EvilDiamondScript : MonoBehaviour
         innerCircleMaterial = innerCircle.GetComponent<Renderer>().material;
         // Store the object's original scale
         originalScale = transform.localScale;
-        originalPosition = transform.position;
+        originalPosition = transform.localPosition;
         Vector3 position = gameObject.transform.position;
         iHitParticleSystem = Instantiate(hitParticleSystem, position, Quaternion.Euler(180.0f, 0.0f, 0f));
         iHitParticleSystem.Stop();
