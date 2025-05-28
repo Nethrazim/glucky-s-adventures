@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rabbit Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: a0b201e5443e8b847b9087c120f422c9, type: 3}
+      propertyPath: m_TagString
+      value: enemies
+      objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a0b201e5443e8b847b9087c120f422c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.904982
@@ -65,6 +69,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a0b201e5443e8b847b9087c120f422c9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5316496403808852517}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a0b201e5443e8b847b9087c120f422c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1075175486669885550}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: a0b201e5443e8b847b9087c120f422c9, type: 3}
 --- !u!1 &589455647453077654 stripped
 GameObject:
@@ -136,3 +143,17 @@ MonoBehaviour:
   targetDistance: 3
   crushedSprite: {fileID: 0}
   deathParticle: {fileID: 0}
+--- !u!114 &1075175486669885550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589455647453077654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f846d86c8e206e4b8fa1154f9ba5845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet: {fileID: 249376547392690653, guid: cb12d45c9402b5145b797a500c230745, type: 3}
+  distanceFromPlayer: 8

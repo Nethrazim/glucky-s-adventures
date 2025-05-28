@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization.Json;
 using UnityEditor;
 using Unity.VisualScripting;
+using System;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -43,44 +44,44 @@ public class PlayerScript : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        try
         {
-            jump();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                jump();
+            }
+
+            //StartCoroutine(DelayedSetGrounded());
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                moveRight();
+            }
+
+            if (Input.GetKeyUp(KeyCode.D))
+            {
+                stopMovingRight();
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                moveLeft();
+            }
+
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                stopMovingLeft();
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftControl))
+            {
+                Fire();
+            }
         }
-
-        //StartCoroutine(DelayedSetGrounded());
-
-        if (Input.GetKey(KeyCode.D))
+        catch (Exception ex)
         {
-            moveRight();
+            
         }
-
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            stopMovingRight();
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            moveLeft();
-        }
-
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            stopMovingLeft();
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
-            Fire();
-        }
-        
-        //if(!isGrounded)
-           // _rigidBody.linearVelocity += Vector2.down * new Vector2(0f, 9.81f) * Time.deltaTime;
-        //if (numberOfJumps >= 1)
-        //{
-        //  Debug.Log("CE PULA MEA DE " + numberOfJumps);
-        //}
     }
     public void jump()
     {
