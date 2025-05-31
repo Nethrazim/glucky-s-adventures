@@ -20,8 +20,26 @@ public class ShieldCollider : MonoBehaviour
         
         if (collision.gameObject.tag == "bullets")
         {
+            Vector3 direction = (collision.gameObject.transform.position - transform.position).normalized;
+            
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            //transform.rotation = Quaternion.Euler(0, 0, angle + 180f);
+
             Vector2 contactPoint = collision.transform.position;
-            Instantiate(shieldSparkles, contactPoint, Quaternion.Euler(0,0,120));
+            
+            if (contactPoint.x > transform.position.x)
+            {
+                contactPoint.x -= 0.5f;
+                //angle += 90;
+            }
+            else
+            {
+                contactPoint.x += 0.5f;
+                angle -= 45;
+            }
+
+            Instantiate(shieldSparkles, contactPoint, Quaternion.Euler(0, 0, angle));
         }
     }
 }

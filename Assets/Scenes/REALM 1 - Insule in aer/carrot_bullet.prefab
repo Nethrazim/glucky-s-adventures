@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flyDistance: 20
-  speed: 4.25
+  speed: 8
   isFlyingRight: 0
   isRotating: 1
   aimForThePlayer: 1

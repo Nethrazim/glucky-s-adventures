@@ -175,7 +175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14e8846f5083234e9dea7cb4442eda2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flyDistance: 10
-  speed: 15.7
+  flyDistance: 8
+  speed: 9.9
   isFlyingRight: 1
+  hue: 0
   rotationSpeed: {x: 0, y: 0, z: 720}
