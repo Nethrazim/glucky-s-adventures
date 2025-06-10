@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a4e6c0e9755bad64499ab5ebc6cd2478, type: 2}
+  - {fileID: 2100000, guid: f1e983b9c37180645929b378d28e8dd6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -175,8 +175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14e8846f5083234e9dea7cb4442eda2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flyDistance: 8
-  speed: 9.9
+  flyDistance: 20
+  speed: 19.97
   isFlyingRight: 1
   hue: 0
   rotationSpeed: {x: 0, y: 0, z: 720}
+  glowAmountStep: 0.5

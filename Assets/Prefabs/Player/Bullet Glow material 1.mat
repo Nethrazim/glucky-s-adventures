@@ -54,10 +54,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _GlowAmount: 15.8
+    - _GlowAmount: 15
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 1, g: 0.106333435, b: 0, a: 1}
+    - _Color: {r: 0.9607843, g: 0.30035794, b: 0.027450979, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -12,7 +12,7 @@ public class Bullet1Script : MonoBehaviour
     public float hue = 0f;
     public Vector3 rotationSpeed = new Vector3(0, 0, 720);
     private Material material;
-    private
+    public float glowAmountStep = 0.25f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,23 +47,27 @@ public class Bullet1Script : MonoBehaviour
     void Update()
     {
         transform.Rotate(rotationSpeed * Time.deltaTime);
-        if (transform.position.x > initialPosition.x + flyDistance)
+        float parsedDistance = Vector2.Distance(transform.position, initialPosition);
+
+        if (parsedDistance > flyDistance)
         {
             DestroyBullet();
         }
 
-        if (transform.position.x < (initialPosition.x + flyDistance) / 2)
+        if (parsedDistance < flyDistance / 2)
         {
-            material.SetFloat("_GlowAmount", material.GetFloat("_GlowAmount") + (transform.position.x - initialPosition.x) * 0.25f);
+            Debug.Log("Adding glow amount");
+            //material.SetFloat("_GlowAmount", material.GetFloat("_GlowAmount") + glowAmountStep);
         }
 
 
-        if (transform.position.x > (initialPosition.x + flyDistance) / 2)
+        if (parsedDistance > flyDistance / 2)
         {
-            material.SetFloat("_GlowAmount", material.GetFloat("_GlowAmount") - (transform.position.x - initialPosition.x) * 0.25f);
+            Debug.Log("Substracting glow amount");
+            //material.SetFloat("_GlowAmount", material.GetFloat("_GlowAmount") - glowAmountStep);
         }
 
-
+        //Debug.Log(material.GetFloat("_GlowAmount"));
     }
 
     private void DestroyBullet()

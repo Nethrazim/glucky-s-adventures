@@ -10680,6 +10680,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5120911529600487795, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 416.852
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120911529600487795, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 432.371
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120911529600487795, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -16.369
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120911529600487795, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 15.568
+      objectReference: {fileID: 0}
     - target: {fileID: 6245535252394364090, guid: 6768b1b8cc451fa4d87f38b06cc63a8f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.34954524
