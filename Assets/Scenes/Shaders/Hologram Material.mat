@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Good Diamond Glow material
-  m_Shader: {fileID: -6465566751694194690, guid: 482508e4ff025194db4ef21ecdf80709, type: 3}
+  m_Name: Hologram Material
+  m_Shader: {fileID: -6465566751694194690, guid: 08d31ded3d8bcaa4ebc33bb2e2e2f362, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -18,25 +18,14 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c986a582566e3744ea147706af6e47c3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 0}
+    - _SampleTexture2D_2e2cf4412923406fa7cdb444c4e8c187_Texture_1_Texture2D:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -53,15 +42,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EnableExternalAlpha: 0
-    - _GlowAmount: 17.69
-    - _ZWrite: 0
+    - _CorePower: -8.9
+    - _PlaySpeed: 10.4
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _XRMotionVectorsPass: 1
     m_Colors:
-    - _Color: {r: 1.1018867, g: 0.80411184, b: 0.5883659, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.8352941, g: 0.28000334, b: 0.066666685, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8896809265950480619
+--- !u!114 &2848873092865342817
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

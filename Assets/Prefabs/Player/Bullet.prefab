@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f1e983b9c37180645929b378d28e8dd6, type: 2}
+  - {fileID: 2100000, guid: 7de24024f9ac9e94488f081479a696d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 2009410003007727163, guid: 2aa67da0ddb97474083d47b6ab408e32, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.93207544, g: 0.10375927, b: 0.10375927, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flyDistance: 20
-  speed: 19.97
+  speed: 10
   isFlyingRight: 1
   hue: 0
   rotationSpeed: {x: 0, y: 0, z: 720}
