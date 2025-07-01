@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Minotaur Statue_0: 3604468909993161684
+      Minotaur Statue_1: -1858507247773980432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
