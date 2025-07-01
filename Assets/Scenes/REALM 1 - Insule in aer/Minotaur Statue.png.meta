@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: b44b579662cd67a459692e3fb47fe400
+guid: 8592a77f051a33840b4b361d32935bee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4434119205877551544
-    second: lightning_texture v2_0
+      213: 3604468909993161684
+    second: Minotaur Statue_0
+  - first:
+      213: -1858507247773980432
+    second: Minotaur Statue_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lightning_texture v2_0
+      name: Minotaur Statue_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 181
-        height: 217
+        x: 9
+        y: 21
+        width: 1015
+        height: 1003
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84e6ee14318d672c0800000000000000
-      internalID: -4434119205877551544
+      spriteID: 4d3f4185065a50230800000000000000
+      internalID: 3604468909993161684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur Statue_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f861f341814536e0800000000000000
+      internalID: -1858507247773980432
       vertices: []
       indices: 
       edges: []
@@ -160,8 +185,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      lightning_texture v2_0: -4434119205877551544
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

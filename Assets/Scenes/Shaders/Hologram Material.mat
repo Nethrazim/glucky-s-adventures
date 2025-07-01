@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _SampleTexture2D_2e2cf4412923406fa7cdb444c4e8c187_Texture_1_Texture2D:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 10900, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -48,7 +48,12 @@ Material:
     - _QueueOffset: 0
     - _XRMotionVectorsPass: 1
     m_Colors:
+<<<<<<< HEAD
     - _MainColor: {r: 0, g: 0, b: 0, a: 1}
+=======
+    - _MainColor: {r: 0.80981845, g: 1.3962264, b: 0.07244571, a: 1}
+    - _SecondColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+>>>>>>> 6382817 (19th commit)
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2848873092865342817
