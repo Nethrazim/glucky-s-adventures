@@ -2,13 +2,14 @@ using UnityEngine;
 using Unity.Mathematics;
 using System.Collections;
 using UnityEngine.UIElements;
+using Unity.VisualScripting;
 
 public class BasicEnemyFire : MonoBehaviour
 {
     public GameObject Bullet;
     private GameObject Player;
     private bool hasFired = false;
-    private float resetTime = 0;
+    public float resetTime = 0;
     public float distanceFromPlayer = 8;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,13 +22,16 @@ public class BasicEnemyFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!hasFired && Mathf.Abs(Player.transform.position.x - gameObject.transform.position.x) < distanceFromPlayer)
+        if (!gameObject.IsDestroyed())
         {
-            //StartCoroutine(FireEveryHalfSecond());
-            float elapsed = Time.time - resetTime;
-            if (elapsed > 1)
+            if (!hasFired && Mathf.Abs(Player.transform.position.x - gameObject.transform.position.x) < distanceFromPlayer)
             {
-                Fire();
+                //StartCoroutine(FireEveryHalfSecond());
+                float elapsed = Time.time - resetTime;
+                if (elapsed > 2)
+                {
+                    Fire();
+                }
             }
         }
     }

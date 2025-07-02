@@ -12,7 +12,7 @@ public class BasicEnemyBullet : MonoBehaviour
     public bool isRotating = false;
 
     public bool aimForThePlayer = false;
-
+    public float Damage = 10;
     public float rotationSpeed = 2f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -1,0 +1,960 @@
+fileFormatVersion: 2
+guid: f4d4255e86df35848b98ecd45b9ede30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6740807389851834975
+    second: Grave-v1_0
+  - first:
+      213: 564310758428541459
+    second: Grave-v1_1
+  - first:
+      213: -6480408392631083749
+    second: Grave-v1_2
+  - first:
+      213: 6747281833682877635
+    second: Grave-v1_3
+  - first:
+      213: 1695095683781195277
+    second: Grave-v1_4
+  - first:
+      213: 7175418556411465082
+    second: Grave-v1_5
+  - first:
+      213: -624394217307449066
+    second: Grave-v1_6
+  - first:
+      213: 7405379155199818459
+    second: Grave-v1_7
+  - first:
+      213: -4952179085133206228
+    second: Grave-v1_8
+  - first:
+      213: -2187293116874689866
+    second: Grave-v1_9
+  - first:
+      213: 4807358272659908974
+    second: Grave-v1_10
+  - first:
+      213: 4940903326659797358
+    second: Grave-v1_11
+  - first:
+      213: 7538005890500170119
+    second: Grave-v1_12
+  - first:
+      213: 3623793031246117338
+    second: Grave-v1_13
+  - first:
+      213: 6480548673209517785
+    second: Grave-v1_14
+  - first:
+      213: 6749099210073981741
+    second: Grave-v1_15
+  - first:
+      213: -4047479689110304153
+    second: Grave-v1_16
+  - first:
+      213: 9028724092435861659
+    second: Grave-v1_17
+  - first:
+      213: 1803615194783924896
+    second: Grave-v1_18
+  - first:
+      213: -5805384287762773145
+    second: Grave-v1_19
+  - first:
+      213: -2079470299260977624
+    second: Grave-v1_20
+  - first:
+      213: 2729581545708910122
+    second: Grave-v1_21
+  - first:
+      213: -3610195182202943740
+    second: Grave-v1_22
+  - first:
+      213: 7140717617273125549
+    second: Grave-v1_23
+  - first:
+      213: -2972576578445763946
+    second: Grave-v1_24
+  - first:
+      213: 3466699507476667460
+    second: Grave-v1_25
+  - first:
+      213: -3419898105621969291
+    second: Grave-v1_26
+  - first:
+      213: -2773528805002924580
+    second: Grave-v1_27
+  - first:
+      213: -9033308773260031921
+    second: Grave-v1_28
+  - first:
+      213: 7795055985156554036
+    second: Grave-v1_29
+  - first:
+      213: -5350721579821356184
+    second: Grave-v1_30
+  - first:
+      213: 2067800887255110997
+    second: Grave-v1_31
+  - first:
+      213: -659393227425559463
+    second: Grave-v1_32
+  - first:
+      213: -8337083556146705326
+    second: Grave-v1_33
+  - first:
+      213: -217106426365071506
+    second: Grave-v1_34
+  - first:
+      213: -4829432542537746774
+    second: Grave-v1_35
+  - first:
+      213: 4232832460597002911
+    second: Grave-v1_36
+  - first:
+      213: 4953627684132856189
+    second: Grave-v1_37
+  - first:
+      213: 2715711099614550467
+    second: Grave-v1_38
+  - first:
+      213: -5176746937259489909
+    second: Grave-v1_39
+  - first:
+      213: 6694410434673750657
+    second: Grave-v1_40
+  - first:
+      213: 6463444734149652983
+    second: Grave-v1_41
+  - first:
+      213: 2028295972168821631
+    second: Grave-v1_42
+  - first:
+      213: -7467295837443417905
+    second: Grave-v1_43
+  - first:
+      213: -3499954596549363212
+    second: Grave-v1_44
+  - first:
+      213: -12103426915662959
+    second: Grave-v1_45
+  - first:
+      213: -3634660016240954758
+    second: Grave-v1_46
+  - first:
+      213: 8425589480912542064
+    second: Grave-v1_47
+  - first:
+      213: 5432678560462965488
+    second: Grave-v1_48
+  - first:
+      213: -1982349439837970250
+    second: Grave-v1_49
+  - first:
+      213: -855237026325207568
+    second: Grave-v1_50
+  - first:
+      213: 1738958405375379643
+    second: Grave-v1_51
+  - first:
+      213: 7309562681811740926
+    second: Grave-v1_52
+  - first:
+      213: 823173381331562326
+    second: Grave-v1_53
+  - first:
+      213: 8715052090413957547
+    second: Grave-v1_54
+  - first:
+      213: -8535087724770647131
+    second: Grave-v1_55
+  - first:
+      213: -7923121976267831228
+    second: Grave-v1_56
+  - first:
+      213: 7940188884410606150
+    second: Grave-v1_57
+  - first:
+      213: 3978196214224882540
+    second: Grave-v1_58
+  - first:
+      213: 1441974691803664097
+    second: Grave-v1_59
+  - first:
+      213: -1873021094887063751
+    second: Grave-v1_60
+  - first:
+      213: -945035133995494385
+    second: Grave-v1_61
+  - first:
+      213: 1240098820026815912
+    second: Grave-v1_62
+  - first:
+      213: -919929704737550054
+    second: Grave-v1_63
+  - first:
+      213: 1186146764191285295
+    second: Grave-v1_64
+  - first:
+      213: -6579260813147757453
+    second: Grave-v1_65
+  - first:
+      213: 1722142157039306099
+    second: Grave-v1_66
+  - first:
+      213: -6047229480860081776
+    second: Grave-v1_67
+  - first:
+      213: -3284993962605832471
+    second: Grave-v1_68
+  - first:
+      213: -7575416405463416135
+    second: Grave-v1_69
+  - first:
+      213: -5938496345471052751
+    second: Grave-v1_70
+  - first:
+      213: 6755545852336068807
+    second: Grave-v1_71
+  - first:
+      213: 6766511240734257028
+    second: Grave-v1_72
+  - first:
+      213: -5116599489721459497
+    second: Grave-v1_73
+  - first:
+      213: -4363500480344514578
+    second: Grave-v1_74
+  - first:
+      213: 597682953581049882
+    second: Grave-v1_75
+  - first:
+      213: -2455004812753625635
+    second: Grave-v1_76
+  - first:
+      213: 5046655908317177002
+    second: Grave-v1_77
+  - first:
+      213: 5709670506802153798
+    second: Grave-v1_78
+  - first:
+      213: 8524048330367068094
+    second: Grave-v1_79
+  - first:
+      213: -5954022388352830791
+    second: Grave-v1_80
+  - first:
+      213: -5371519406499923788
+    second: Grave-v1_81
+  - first:
+      213: -5720548571554068011
+    second: Grave-v1_82
+  - first:
+      213: -4271189224989188949
+    second: Grave-v1_83
+  - first:
+      213: 480234868571350727
+    second: Grave-v1_84
+  - first:
+      213: 2145237670222605535
+    second: Grave-v1_85
+  - first:
+      213: 6847008817568695779
+    second: Grave-v1_86
+  - first:
+      213: -2032373809929711797
+    second: Grave-v1_87
+  - first:
+      213: 8245657763676748431
+    second: Grave-v1_88
+  - first:
+      213: -1428198914694421272
+    second: Grave-v1_89
+  - first:
+      213: 3991804996092469788
+    second: Grave-v1_90
+  - first:
+      213: 5223337387880931402
+    second: Grave-v1_91
+  - first:
+      213: 5090299976749573214
+    second: Grave-v1_92
+  - first:
+      213: -6034053268706326018
+    second: Grave-v1_93
+  - first:
+      213: -4259051365765522128
+    second: Grave-v1_94
+  - first:
+      213: -1194418400774197153
+    second: Grave-v1_95
+  - first:
+      213: 8034030912147472690
+    second: Grave-v1_96
+  - first:
+      213: -5421353917289025417
+    second: Grave-v1_97
+  - first:
+      213: -2061605432881947928
+    second: Grave-v1_98
+  - first:
+      213: -8549279537586329829
+    second: Grave-v1_99
+  - first:
+      213: -5092175824627375358
+    second: Grave-v1_100
+  - first:
+      213: 6104494009666263734
+    second: Grave-v1_101
+  - first:
+      213: -5032104858951221188
+    second: Grave-v1_102
+  - first:
+      213: -1733862627153482170
+    second: Grave-v1_103
+  - first:
+      213: -8306506327814960684
+    second: Grave-v1_104
+  - first:
+      213: 4931890054908858290
+    second: Grave-v1_105
+  - first:
+      213: -2717777154086486293
+    second: Grave-v1_106
+  - first:
+      213: -555592426638685583
+    second: Grave-v1_107
+  - first:
+      213: 8170675729897614600
+    second: Grave-v1_108
+  - first:
+      213: 362222709371356848
+    second: Grave-v1_109
+  - first:
+      213: 6501957775329065112
+    second: Grave-v1_110
+  - first:
+      213: 3634380547404645978
+    second: Grave-v1_111
+  - first:
+      213: -8680155107354568489
+    second: Grave-v1_112
+  - first:
+      213: 8706818123184181782
+    second: Grave-v1_113
+  - first:
+      213: 7152155143998789206
+    second: Grave-v1_114
+  - first:
+      213: 6127970418923765201
+    second: Grave-v1_115
+  - first:
+      213: 7907217134699194794
+    second: Grave-v1_116
+  - first:
+      213: 8109994406545728978
+    second: Grave-v1_117
+  - first:
+      213: 1054930927267305657
+    second: Grave-v1_118
+  - first:
+      213: 1845232120680064838
+    second: Grave-v1_119
+  - first:
+      213: 4506056890497063598
+    second: Grave-v1_120
+  - first:
+      213: 3340737919109402635
+    second: Grave-v1_121
+  - first:
+      213: -8868416410580255569
+    second: Grave-v1_122
+  - first:
+      213: 1633302406051023030
+    second: Grave-v1_123
+  - first:
+      213: -4684343741857016418
+    second: Grave-v1_124
+  - first:
+      213: -3402760408126316466
+    second: Grave-v1_125
+  - first:
+      213: 983159723834302849
+    second: Grave-v1_126
+  - first:
+      213: 3469790146979678686
+    second: Grave-v1_127
+  - first:
+      213: -8907616349644140970
+    second: Grave-v1_128
+  - first:
+      213: -2304732098889704883
+    second: Grave-v1_129
+  - first:
+      213: 346760782927614472
+    second: Grave-v1_130
+  - first:
+      213: 3494106492583342421
+    second: Grave-v1_131
+  - first:
+      213: 510014515371060597
+    second: Grave-v1_132
+  - first:
+      213: -143732176728639582
+    second: Grave-v1_133
+  - first:
+      213: -3594247156981867127
+    second: Grave-v1_134
+  - first:
+      213: -7942692566714857103
+    second: Grave-v1_135
+  - first:
+      213: 7891153095625671750
+    second: Grave-v1_136
+  - first:
+      213: 7017720969596226906
+    second: Grave-v1_137
+  - first:
+      213: -4437192056459618135
+    second: Grave-v1_138
+  - first:
+      213: -19774280979518367
+    second: Grave-v1_139
+  - first:
+      213: 3031810889757213691
+    second: Grave-v1_140
+  - first:
+      213: 7634005234052134886
+    second: Grave-v1_141
+  - first:
+      213: 6897535736384057052
+    second: Grave-v1_142
+  - first:
+      213: 5901159335459752588
+    second: Grave-v1_143
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grave-v1_42
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 477
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b6a78b074f52c10800000000000000
+      internalID: 2028295972168821631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_48
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 475
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa864ffd50c46b40800000000000000
+      internalID: 5432678560462965488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_92
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 323
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54665afbd064a640800000000000000
+      internalID: 5090299976749573214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_102
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 124
+        width: 1058
+        height: 1187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3002b1ca4f5a2ab0800000000000000
+      internalID: -5032104858951221188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_127
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 15
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9cfd341cb272030800000000000000
+      internalID: 3469790146979678686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_128
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ecff3ef1ac16480800000000000000
+      internalID: -8907616349644140970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_129
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 7
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a1d37fd52f300e0800000000000000
+      internalID: -2304732098889704883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_130
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 17
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802df684811ffc400800000000000000
+      internalID: 346760782927614472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_131
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 15
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551f0d9a75f8d7030800000000000000
+      internalID: 3494106492583342421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_132
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 13
+        width: 55
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d2cf2ef7fe31700800000000000000
+      internalID: 510014515371060597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_133
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7bb47c85c510ef0800000000000000
+      internalID: -143732176728639582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_134
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 9
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d532df04bae1ec0800000000000000
+      internalID: -3594247156981867127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_136
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 15
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6440efc6ee1038d60800000000000000
+      internalID: 7891153095625671750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_137
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 14
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dc7955a04f36160800000000000000
+      internalID: 7017720969596226906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_139
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ce68e656fb9bff0800000000000000
+      internalID: -19774280979518367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_141
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 10
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7762d405f61f960800000000000000
+      internalID: 7634005234052134886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_142
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 7
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeebb02538f8bf50800000000000000
+      internalID: 6897535736384057052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave-v1_143
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 4
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a0f01662125e150800000000000000
+      internalID: 5901159335459752588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 77b833a4a67385e4bad6c9a35ade905f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grave-v1_0: 1626367729
+      Grave-v1_1: 1859297689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

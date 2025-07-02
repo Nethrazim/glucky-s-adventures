@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bullet Glow material 1
+  m_Name: Score Material
   m_Shader: {fileID: -6465566751694194690, guid: 75781ee74b14f3c4c86d8e43ed02337c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -54,10 +54,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _GlowAmount: 4.4
+    - _GlowAmount: 2.5
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 3.4867926, g: 1.0255272, b: 0, a: 1}
+    - _Color: {r: 0.59236866, g: 0.57895374, b: 0.5308964, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

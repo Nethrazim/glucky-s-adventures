@@ -9,6 +9,9 @@ TagManager:
   - bullets
   - coin
   - player_bullets
+  - HealthBar
+  - EnemySpawner
+  - Score
   layers:
   - Default
   - TransparentFX
@@ -43,6 +46,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Default UI Images
+    uniqueID: 3977680743
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

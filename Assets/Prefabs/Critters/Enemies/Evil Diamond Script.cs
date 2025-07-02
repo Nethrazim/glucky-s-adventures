@@ -86,7 +86,7 @@ public class EvilDiamondScript : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "bullets")
+        if (collision.gameObject.tag == "player_bullets")
         {
             hits--;
             iHitParticleSystem.Play();
